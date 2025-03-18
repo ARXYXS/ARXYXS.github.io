@@ -95,6 +95,10 @@ input {
 	padding: 5px;
 }
 
+#model-container {
+	align-content: center;
+}
+
 #footer {
 	height: 300px;
 	margin: auto;
