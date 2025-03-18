@@ -20,6 +20,8 @@
         <!--Stylesheet for the Homepage-->
         <link rel="stylesheet" href="styles/indexStyle.css">
 
+        <link href="vendor/bmc3dviewer/css/bmc3dviewer.css" rel="stylesheet" />
+
     </head>
 
 
@@ -59,6 +61,18 @@
              </div>
          </div>
 
+         <div class='bmc_3dviewer'
+            data-src='[{"path":"C:\Users\Anaia\OneDrive - University of Toronto\Documents\GitHub\ARXYXS.github.io\3D assets", "name":"hand.obj"},{"path":"", "name":""}]'
+            data-debug='true' 
+            data-min-zoom='0.5'
+            data-max-zoom='2.0'
+            data-background-colour='0x000000' 
+            data-reset-view-btn='true' 
+            data-ortho-cam-size='1.0'
+            data-key-light-intensity='9.0'
+            data-fill-light-intensity='3.0'
+            data-initial-orientation='{"x":0, "y":0, "z":-10}'>
+        </div>
 
          <div id="footer">
 
@@ -91,7 +105,7 @@
             </div>
         </div>
 
-
+        <script type="module" src="vendor/bmc3dviewer/main.js"></script>
   
     </body>
 
